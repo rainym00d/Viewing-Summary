@@ -1,0 +1,120 @@
+\documentclass[UTF8]{ctexart}
+\usepackage{dirtree}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amsmath,amsthm,mathtools,amsfonts}
+\usepackage{diagbox}
+\usepackage{multirow,makecell}
+\usepackage{float}
+\usepackage{url}
+\usepackage[nottoc]{tocbibind}
+\usepackage{float}
+\usepackage[colorlinks=true, linkcolor=black]{hyperref}
+\usepackage{booktabs}
+
+%----------
+% 定义代码样式
+%----------
+
+\lstset{
+ columns=fixed,
+ numbers=left,                                        % 在左侧显示行号
+ numberstyle=\tiny\color{gray},                       % 设定行号格式
+ basicstyle=\small\ttfamily,
+ frame=none,                                          % 不显示背景边框
+ backgroundcolor=\color[RGB]{245,245,244},            % 设定背景颜色
+ keywordstyle=\color[RGB]{40,40,255},                 % 设定关键字颜色
+ numberstyle=\footnotesize\color{darkgray},           
+ commentstyle=\color{gray}\ttfamily,                  % 设置代码注释的格式
+ stringstyle=\rmfamily\slshape\color[RGB]{128,0,0},   % 设置字符串格式
+ showstringspaces=false,
+ breaklines=true,
+ language=c++
+}
+
+% 页边距
+\usepackage[a4paper]{geometry}
+\geometry{verbose,
+  tmargin=2cm,% 上边距
+  bmargin=2cm,% 下边距
+  lmargin=3cm,% 左边距
+  rmargin=3cm % 右边距
+}
+
+%----------
+% 设置页眉页脚
+%----------
+
+\usepackage{fancyhdr}	%使用fancyhdr宏包
+\pagestyle{fancy}		%使用fancy页面风格
+% \lhead{左边页眉}		 %设置页眉左侧
+% \chead{中间页眉}			%设置页眉中间
+% \rhead{\leftmark}			%设置页眉右侧为leftmark
+% \lfoot{\rightmark}			%设置页脚左侧为rightmark
+\cfoot{\thepage}			%设置页脚中间为页码
+% \rfoot{右边页脚}			%设置页脚右侧为"右边页脚
+\fancyhead[C]{2020年不完全收录观影汇总}
+\fancyhead[R]{}
+\fancyhead[L]{}
+\renewcommand{\headrulewidth}{2pt}
+
+\newcommand{\refe}[1]{Eq.\ref{#1}}
+\newcommand{\reft}[1]{Theory.\ref{#1}\ }
+\newcommand{\refl}[1]{Lemma.\ref{#1}\ }
+\newcommand{\reff}[1]{图\ref{#1}\ }
+\newtheorem{example}{例}
+\newtheorem{definition}{定义}
+\newtheorem{theorem}{定理}[section]
+\newtheorem{lemma}{引理}
+
+\title{2020年不完全收录观影汇总}
+\author{rainym00d}
+% \pagestyle{plain}
+\begin{document}
+    \maketitle
+    \tableofcontents
+    \newpage
+    \section{TV动画}
+    \begin{enumerate}
+        \item \textbf{钢之炼金术师}
+        \item \textbf{天元突破}
+        \item \textbf{kill la kill}
+        \item 境界触发者
+        \item 炎炎消防队第二季
+        \item re0第二季
+        \item 动物新世代（BNA）
+        \item 大欺诈师
+        \item 高达创战者崛起
+        \item \textbf{高达UC0096}
+        \item \textbf{高达seed}
+        \item 异度侵入
+        \item 公主连接
+        \item 辉夜大小姐想让人告白第二季
+        \item 全员恶玉
+        \item \emph{灵能百分百}
+        \item \emph{罪恶王冠}
+        \item \emph{高达00}
+        \item \emph{eva}
+    \end{enumerate}
+    \section{剧场版动画}
+    \begin{enumerate}
+        \item \textbf{声之形}
+        \item \textbf{言叶之庭}
+        \item 名侦探柯南：绀青之拳
+        \item 为美好世界献上祝福！红传说
+        \item 姜子牙
+    \end{enumerate}
+    \section{电视剧}
+    \begin{enumerate}
+        \item 后翼弃兵
+    \end{enumerate}
+    \section{电影}
+    \begin{enumerate}
+        \item \textbf{沉默的羔羊}
+        \item \textbf{信条}
+        \item \textbf{小妇人}
+        \item \textbf{哈利波特系列}
+    \end{enumerate}
+\end{document}
