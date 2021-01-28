@@ -1,4 +1,0 @@
-\contentsline {section}{\numberline {1}TV动画}{2}{section.1}%
-\contentsline {section}{\numberline {2}剧场版动画}{2}{section.2}%
-\contentsline {section}{\numberline {3}电视剧}{2}{section.3}%
-\contentsline {section}{\numberline {4}电影}{3}{section.4}%
